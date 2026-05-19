@@ -98,7 +98,7 @@ a {
   align-items: center;
   background:
     linear-gradient(90deg, rgba(36, 67, 50, 0.86), rgba(36, 67, 50, 0.62), rgba(36, 67, 50, 0.22)),
-    url("images/forest-adventure-dogs.png") center / cover,
+    url("images/dogs-by-lake.png") center / cover,
     var(--forest);
 }
 
@@ -395,7 +395,7 @@ h3 {
     min-height: 600px;
     background:
       linear-gradient(180deg, rgba(36, 67, 50, 0.82), rgba(36, 67, 50, 0.62)),
-      url("images/forest-adventure-dogs.png") center / cover,
+      url("images/dogs-by-lake.png") center / cover,
       var(--forest);
   }
 
