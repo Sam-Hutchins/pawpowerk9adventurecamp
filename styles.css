@@ -154,6 +154,14 @@ h3 {
   letter-spacing: 0;
 }
 
+h4 {
+  margin: 0;
+  color: var(--forest);
+  font-size: 1.05rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
 .hero-text {
   max-width: 620px;
   margin: 24px 0 0;
@@ -316,8 +324,21 @@ h3 {
   background: var(--paper);
 }
 
-.fit-section {
+.service-fit {
+  margin-top: 28px;
+  padding: 30px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
   background: var(--cream);
+}
+
+.service-fit-heading {
+  max-width: 640px;
+  margin-bottom: 22px;
+}
+
+.service-fit-heading h3 {
+  font-size: clamp(1.55rem, 3vw, 2.15rem);
 }
 
 .fit-grid {
@@ -327,11 +348,10 @@ h3 {
 }
 
 .fit-card {
-  padding: 28px;
+  padding: 24px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: white;
-  box-shadow: 0 10px 30px rgba(36, 67, 50, 0.08);
 }
 
 .fit-card ul {
@@ -467,6 +487,10 @@ h3 {
 
   .card {
     min-height: auto;
+  }
+
+  .service-fit {
+    padding: 22px;
   }
 
   .image-frame,
